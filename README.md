@@ -12,4 +12,9 @@ The customizability of Furhat leads to the immense possibilities of different pe
 2. Airport assistants built by Deutsche Bahn Systel 
 # Weather Agent Development
 For furhat skill development kotlin programming language is used. Depending upon the type of skill one want to implement, the files that need to be changed differs. In this project, three files were modified: the main.kt, interaction.kt, and build.gradle. The main.kt file contains the main method that starts the furhat robot.Additionally, it is the file in which all the intents are defined. For this project two intents are being used: GetWeather, and GetDetails.The GetWeather intent captures the city and the date that the user is interested in, and the GetDetails intent captures whether the user want to know about humidity, pressure, and wind speed.
-The interaction.kt file, as the name suggests this file is used to design the dialogues between the user and the agent. Furhat robotics has already defined basic intents for responses such as Yes or No.
+The interaction.kt file, as the name suggests this file is used to design the dialogues between the user and the agent. Furhat robotics has already defined basic intents for responses such as Yes or No.  As this skill takes the data from an API, kotlin http dependency is being used.  
+The images shown below shows the actual implementation of a dialogue.  
+![alt text](https://github.com/123Omkar-Padwal/Furhat-Weather-ChatBot/blob/main/images/Screenshot%20(99).png)
+![alt text](https://github.com/123Omkar-Padwal/Furhat-Weather-ChatBot/blob/main/images/Screenshot%20(100).png)
+![alt text](https://github.com/123Omkar-Padwal/Furhat-Weather-ChatBot/blob/main/images/Screenshot%20(101).png)
+
