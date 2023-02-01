@@ -1,0 +1,15 @@
+00:47:41 [Skill] ERROR Skill:156 - Failed to get local machine's IP address
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.bind0(DualStackPlainDatagramSocketImpl.java:84)
+	at java.net.AbstractPlainDatagramSocketImpl.bind(AbstractPlainDatagramSocketImpl.java:93)
+	at java.net.DatagramSocket.bind(DatagramSocket.java:392)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:242)
+	at java.net.DatagramSocket.<init>(DatagramSocket.java:196)
+	at furhatos.skills.Skill.getLocalMachineIPAddress(Skill.java:152)
+	at furhatos.skills.Skill.connectToBroker(Skill.java:118)
+	at furhatos.skills.Skill.main(Skill.java:89)
+	at furhatos.app.gettingstarted.MainKt.main(main.kt:19)
+00:47:42 [Skill] INFO  Skill:138 - Connecting to Furhat server on localhost:1932
+00:47:42 [GettingstartedSkill] INFO  GettingstartedSkill:165 - Starting skill
+00:48:43 [EventSystem] INFO  GettingstartedSkill:183 - Terminating skill
